@@ -53,7 +53,15 @@ int main() {
 
     printSpaces(32);
     printf("Fast and efficient shopping\n");
-
+     
+    printf("   ****     *    *  ******  *     *        ******      *       *****   *******  \n");
+    printf("  *    *    *    *  *       *   *          *          ***      *    *     *    \n");
+    printf(" *      *   *    *  *       * *            *         *    *    *   *      *    \n ");
+    printf("*        *  *    *  *       *  *           *        ********   * *        *    \n  ");
+    printf(" *    * *   *    *  *       *   *          *       *        *  * *        *    \n ");
+    printf("  *    *    *    *  *       *    *         *       *        *  *   *      *   \n ");
+    printf("   ****  *  ******  ******  *     *        ******  *        *  *    *     *     \n\n\n");
+    
     printSpaces(30);
     printf("*******************************\n\n\n");
 
