@@ -52,18 +52,18 @@ int main() {
     printf("QUICKCART\n");
 
     printSpaces(32);
-    printf("Fast and efficient shopping\n");
+    printf("Fast and efficient shopping\n\n");
      
-    printf("   ****     *    *  ******  *     *        ******      *       *****   *******  \n");
-    printf("  *    *    *    *  *       *   *          *          ***      *    *     *    \n");
-    printf(" *      *   *    *  *       * *            *         *    *    *   *      *    \n ");
-    printf("*        *  *    *  *       *  *           *        ********   * *        *    \n  ");
-    printf(" *    * *   *    *  *       *   *          *       *        *  * *        *    \n ");
-    printf("  *    *    *    *  *       *    *         *       *        *  *   *      *   \n ");
-    printf("   ****  *  ******  ******  *     *        ******  *        *  *    *     *     \n\n\n");
+    printf("      ****     *    *  ******  *     *        ******      *       *****   *******  \n");
+    printf("     *    *    *    *  *       *   *          *          ***      *    *     *    \n");
+    printf("    *      *   *    *  *       * *            *         *    *    *   *      *    \n ");
+    printf("  *        *  *    *  *       *  *           *        ********   * *        *    \n  ");
+    printf("  *    * *   *    *  *       *   *          *       *        *  * *        *    \n ");
+    printf("    *    *    *    *  *       *    *         *       *        *  *   *      *   \n ");
+    printf("     ****  *  ******  ******  *     *        ******  *        *  *    *     *     \n\n");
     
-    printSpaces(30);
-    printf("*******************************\n\n\n");
+    
+    printf("************************************************************************************************************************\n\n\n");
 
     printf("Are you already registered? (Yes = 1 / No = 0): ");
     scanf("%d", &reg);
@@ -220,7 +220,6 @@ int main() {
 
                         case 5:
                             saveCartToFile();
-                            printf("Your data saved successfully!\n");
                             break;
 
                         case 6:
