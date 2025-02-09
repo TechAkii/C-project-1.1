@@ -19,8 +19,11 @@ Features
 Technologies Used
 
    - C Programming
-
+   - Functions
+   - Arrays
+   - Structures
    - File Handling (to save cart data)
+
 
 Use Case
 
